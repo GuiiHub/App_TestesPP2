@@ -10,7 +10,7 @@ if nome:
 
     import pandas as pd
 
-    data = "data\info.csv"
+    data = r"C:\UF\Prog UFPB\Atividades PP II\App_TestesPP2\data\info.csv"
 
     df = pd.read_csv(data)
     st.dataframe(df)
