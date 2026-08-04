@@ -12,6 +12,6 @@ import pandas as pd
 
 data = r"C:\UF\Prog UFPB\Atividades PP II\App_TestesPP2\data\info.csv"
 
-df = pd.read_csv(data, sep=";")
+df = pd.read_csv(data, sep=",")
 st.dataframe(df)
 

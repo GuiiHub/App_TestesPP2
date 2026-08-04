@@ -1,10 +1,7 @@
-import pandas as pd
 
-# Criando um dataset simples
-dados = {
-    "ID": [1, 2, 3, 4, 5],
-    "Nome": ["Ana", "Bruno", "Carlos", "Diana", "Eduardo"],
-    "Idade": [22, 25, 30, 28, 35],
-    "Cidade": ["João Pessoa", "Recife", "Natal", "Fortaleza", "Maceió"],
-    "Salario": [2500, 3200, 4500, 3900, 5200]
-}
+ID,Nome,Idade,Cidade,Salario
+1,Ana,22,João Pessoa,2500
+2,Bruno,25,Recife,3200
+3,Carlos,30,Natal,4500
+4,Diana,28,Fortaleza,3900
+5,Eduardo,35,Maceió,5200
