@@ -6,4 +6,4 @@ st.subheader("Desenvolvido via VS Code")
 nome = st.text_input("Digite seu nome:")
 
 if nome:
-    st.success(f"Olá, {nome}, seja bem-vindo(a)! O ambiente Streamlit está funcionando perfeitamente.")
+    st.success(f"Olá, {nome}, seja bem-vindo(a)! O app Streamlit está funcionando perfeitamente.")
