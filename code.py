@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.title("Teste de aplicação Streamlit")
-st.subheader("Desenvolvida via VS Code")
+st.subheader("Desenvolvido via VS Code")
 
 nome = st.text_input("Digite seu nome:")
 
