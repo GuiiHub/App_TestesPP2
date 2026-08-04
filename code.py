@@ -1,10 +1,9 @@
 import streamlit as st
 
-st.title("Minha Primeira Aplicação Streamlit")
+st.title("Teste de aplicação Streamlit")
 st.subheader("Desenvolvida no VS Code")
 
-# Componente interativo
 nome = st.text_input("Digite seu nome:")
 
 if nome:
-    st.success(f"Olá, {nome}! Seu ambiente Streamlit está funcionando perfeitamente.")
+    st.success(f"Olá, {nome}, seja bem-vindo(a)! O ambiente Streamlit está funcionando perfeitamente.")
