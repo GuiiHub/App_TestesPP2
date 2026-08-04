@@ -8,8 +8,7 @@ nome = st.text_input("Digite seu nome:")
 if nome:
     st.success(f"Olá, {nome}, seja bem-vindo(a)! O app Streamlit está funcionando perfeitamente.")
 
-st.subheader("Exibindo dados em formato CSV")
-
+st.subheader("Exibindo dataframe em formato CSV")
 import pandas as pd
 
 data = r"C:\UF\Prog UFPB\Atividades PP II\App_TestesPP2\data\info.csv"
