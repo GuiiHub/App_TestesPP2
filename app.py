@@ -10,7 +10,7 @@ if nome:
     st.subheader("Exibindo dataframe em formato CSV")
     import pandas as pd
 
-    data = r"data\info.csv"
+    data = "data\info.csv"
 
     df = pd.read_csv(data, sep=",")
     st.dataframe(df)
