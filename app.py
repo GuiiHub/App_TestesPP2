@@ -3,7 +3,7 @@ import streamlit as st
 st.title("Teste Streamlit - Guilherme Queiroz")
 st.subheader("Exemplo simples de aplicação web usando Streamlit.")
 
-nome = st.text_input("Digite seu nome:")
+nome = st.text_input("Digite seu nome/usuário:")
 
 if nome:
     st.success(f"Olá, {nome}, seja bem-vindo(a)! O app Streamlit está funcionando perfeitamente.")
