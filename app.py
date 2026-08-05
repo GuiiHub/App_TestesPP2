@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Teste Streamlit")
+st.title("Teste Streamlit - Guilherme Queiroz")
 st.subheader("Exemplo simples de aplicação web usando Streamlit.")
 
 nome = st.text_input("Digite seu nome:")
